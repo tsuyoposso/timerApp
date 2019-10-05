@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		FEEA4F192347170A0061DFD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEA4F182347170A0061DFD5 /* AppDelegate.swift */; };
 		FEEA4F1B2347170A0061DFD5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEA4F1A2347170A0061DFD5 /* SceneDelegate.swift */; };
-		FEEA4F1D2347170A0061DFD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEA4F1C2347170A0061DFD5 /* ViewController.swift */; };
+		FEEA4F1D2347170A0061DFD5 /* timeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEA4F1C2347170A0061DFD5 /* timeViewController.swift */; };
 		FEEA4F202347170A0061DFD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEEA4F1E2347170A0061DFD5 /* Main.storyboard */; };
 		FEEA4F222347170D0061DFD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEEA4F212347170D0061DFD5 /* Assets.xcassets */; };
 		FEEA4F252347170D0061DFD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEEA4F232347170D0061DFD5 /* LaunchScreen.storyboard */; };
+		FEEA4F2D234724230061DFD5 /* taskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEA4F2C234724230061DFD5 /* taskViewController.swift */; };
+		FEEA4F2F2347244B0061DFD5 /* timerActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEA4F2E2347244B0061DFD5 /* timerActionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FEEA4F152347170A0061DFD5 /* timerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = timerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEEA4F182347170A0061DFD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEEA4F1A2347170A0061DFD5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FEEA4F1C2347170A0061DFD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FEEA4F1C2347170A0061DFD5 /* timeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeViewController.swift; sourceTree = "<group>"; };
 		FEEA4F1F2347170A0061DFD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FEEA4F212347170D0061DFD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEEA4F242347170D0061DFD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEEA4F262347170D0061DFD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEEA4F2C234724230061DFD5 /* taskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taskViewController.swift; sourceTree = "<group>"; };
+		FEEA4F2E2347244B0061DFD5 /* timerActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timerActionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				FEEA4F182347170A0061DFD5 /* AppDelegate.swift */,
 				FEEA4F1A2347170A0061DFD5 /* SceneDelegate.swift */,
-				FEEA4F1C2347170A0061DFD5 /* ViewController.swift */,
+				FEEA4F1C2347170A0061DFD5 /* timeViewController.swift */,
+				FEEA4F2C234724230061DFD5 /* taskViewController.swift */,
+				FEEA4F2E2347244B0061DFD5 /* timerActionViewController.swift */,
 				FEEA4F1E2347170A0061DFD5 /* Main.storyboard */,
 				FEEA4F212347170D0061DFD5 /* Assets.xcassets */,
 				FEEA4F232347170D0061DFD5 /* LaunchScreen.storyboard */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEEA4F1D2347170A0061DFD5 /* ViewController.swift in Sources */,
+				FEEA4F1D2347170A0061DFD5 /* timeViewController.swift in Sources */,
+				FEEA4F2D234724230061DFD5 /* taskViewController.swift in Sources */,
 				FEEA4F192347170A0061DFD5 /* AppDelegate.swift in Sources */,
+				FEEA4F2F2347244B0061DFD5 /* timerActionViewController.swift in Sources */,
 				FEEA4F1B2347170A0061DFD5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +302,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.nagasaka244.514.timerApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.nagasaka244.514.timerApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
